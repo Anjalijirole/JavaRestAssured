@@ -23,7 +23,7 @@ public class utils {
 
 	public RequestSpecification requestSpecification() throws IOException {
 
-		PrintStream log = new PrintStream(new FileOutputStream("logging1.txt"));
+		PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
 		req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl"))
 				.addFilter(RequestLoggingFilter.logRequestTo(log)).addFilter(ResponseLoggingFilter.logResponseTo(log))
 				.setContentType(ContentType.JSON).build();
