@@ -1,0 +1,18 @@
+	{
+
+  "request": {
+    "urlPathPattern": "/login",
+    "method": "POST"    
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "message": "Login Successfull",
+      "token" : "c4515429-0c2e-4520-894c-fbd5e8ae5874"
+      
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

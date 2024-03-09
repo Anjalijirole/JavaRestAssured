@@ -1,0 +1,15 @@
+{
+    "request": {
+        "urlPathPattern": "/doctors/appointment",
+        "method": "POST"
+    },
+    "response": {
+        "status": 201,
+        "jsonBody": {
+            "message": "Appointment Booked"
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}

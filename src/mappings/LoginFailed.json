@@ -1,0 +1,18 @@
+	{
+
+  "request": {
+    "urlPathPattern": "/login/failed",
+    "method": "POST"    
+  },
+  "response": {
+    "status": 401,
+    "jsonBody": {
+      "message": "Login failed"
+      
+      
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

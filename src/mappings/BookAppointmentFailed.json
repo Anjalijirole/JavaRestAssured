@@ -1,0 +1,15 @@
+{
+    "request": {
+        "urlPathPattern": "/doctors/appointment/failed",
+        "method": "POST"
+    },
+    "response": {
+        "status": 400,
+        "jsonBody": {
+            "message": "Appointment for the required timeslot is already booked"
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
